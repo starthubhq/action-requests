@@ -1,7 +1,7 @@
 ---
 name: 🧩 Composition Action Request
 about: Request a new action that chains together existing Starthub actions (a 'Composition').
-title: 'COMPOSITION: [Concise name, e.g., get-weather-by-location-name]'
+title: '[Concise name, e.g., get-weather-by-location-name]'
 labels: ['action-request', 'composition', 'triage']
 assignees: ''
 ---
