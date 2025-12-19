@@ -15,7 +15,7 @@ and the manifest should look like...
 {
   "name": "<name>",
   "description": "<description>",
-  "kind": "composition",
+  "kind": "composition | docker | wasm",
   "inputs": [
     {
       "name": "<name>",
@@ -30,6 +30,11 @@ and the manifest should look like...
       "type": "<type>"
     }
   ],
-  "types": <types>
+  "types": {
+    "type_a": {
+      "some_property_name_a": "string",
+      "some_property_name_b": "number"
+    }
+  }
 }
 ```
